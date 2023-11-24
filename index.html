@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="v1ewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Nicolas Beltran">
+        <meta name="description" content="Nicolas Beltran: Web developer">
+        <link rel="stylesheet" href="./assets/style/base.css" media="all">
+        <script src="./assets/scripts/app.js" type="module" defer></script>
+        <title>Shape Factory</title>
+    </head>
+    <body>
+        <main>
+            <div class="container flex-center">
+                <section class="options">
+                <select name="shapes" id="shapes" class="options-box shapes-box">
+                    <option value="not-selected">Shape</option>
+                    <option value="circle">Circle</option>
+                    <option value="square">Square</option>
+                </select>
+                <select name="colours" id="colours" class="options-box colour-box">
+                    <option value="not-selected">Color</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="orange">Orange</option>
+                    <option value="pink">Pink</option>
+                    <option value="purple">Purple</option>
+
+                </select>
+                <button class="create-shape-btn">Create</button>
+                </section>
+                <section class="shapes-created-box flex-grid">
+                </section>
+                <p class="info-message"> </p>
+            </div>
+        </main>
+    </body>
+</html>

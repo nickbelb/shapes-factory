@@ -1,0 +1,19 @@
+{
+  "name": "shape-factory",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "shape-factory",
+  "main": "app.js",
+  "keywords": [
+      "javascript"
+  ],
+  "scripts": {
+      "test": "echo \"error not test specified \" && exit 1",
+      "start": "lite-server"
+  },
+  "author": "Nicolas Beltran",
+  "license": "ISC",
+  "devDependencies": {
+      "lite-server": "^2.6.1"
+  }
+}
